@@ -156,7 +156,7 @@ export function builtinMessage(nameOrSource) {
   const toggle = key === "drafts" ? "publish: true" : "enabled: false"
   return (
     `${name} is built into Quartz now — configure it under configuration.${key} in quartz.config.yaml ` +
-    `(e.g. \`${key}: { ${toggle} }\`). See https://quartz.jzhao.xyz/features/built-in-processing`
+    `(e.g. \`${key}: { ${toggle} }\`). See https://simke-polsri.github.io/docs/features/built-in-processing`
   )
 }
 

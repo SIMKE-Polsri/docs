@@ -11,7 +11,7 @@ export type ValidDateType = keyof Required<QuartzPluginData>["dates"]
 export function getDate(data: QuartzPluginData): Date | undefined {
   if (!data.defaultDateType) {
     throw new Error(
-      `Field 'defaultDateType' was not set. Ensure the CreatedModifiedDate plugin is configured with a 'defaultDateType' option. See https://quartz.jzhao.xyz/plugins/CreatedModifiedDate for more details.`,
+      `Field 'defaultDateType' was not set. Ensure the CreatedModifiedDate plugin is configured with a 'defaultDateType' option. See https://simke-polsri.github.io/docs/plugins/CreatedModifiedDate for more details.`,
     )
   }
   return data.dates?.[data.defaultDateType]
