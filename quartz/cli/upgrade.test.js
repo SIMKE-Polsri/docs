@@ -56,7 +56,7 @@ describe("formatChangelog", () => {
       maxLines: 5,
     }).replace(/\x1b\[[0-9;]*m/g, "")
     assert.strictEqual(text.split("\n").length, 6)
-    assert.match(text, /^Quartz 5\.2\.0/)
+    assert.match(text, /^Simkeu Glosarium\.2\.0/)
     assert.match(text, /github\.com\/jackyzha0\/quartz\/releases$/)
   })
 })
